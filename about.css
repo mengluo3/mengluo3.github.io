@@ -1,0 +1,121 @@
+html { 
+	background:  black url('Fish2.gif') no-repeat center center fixed; 
+  	background-size: 600px;
+    background-position: right; 
+  	color:white;
+  	font-family: Courier New, sans-serif;
+}
+
+a{
+	color:white;
+}
+
+
+body p{
+	font-size:13px;
+	text-align: justify;
+    text-justify: inter-word;
+    line-height:1.5em;
+}
+
+table{
+	text-align:center;
+}
+
+.container{
+	position:absolute;
+	left:20px;
+	top:80px;
+	right:550px;
+	/*
+	margin-top:80px;
+	margin-left:200px;
+	margin-right:200px;*/
+}
+
+.head{
+	text-align:left;
+	font-size:25px;
+}
+
+/*
+#external-links{
+	margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+#external-links{
+	margin:auto;
+}
+
+#external-links td{
+	font-size:15px;
+	padding-top:5px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#external-links td:hover{
+	background: white;
+}
+
+/*
+#home-button{
+	color:white;
+	padding:5px 15px;
+	text-align: center;
+	margin-top:10px;
+	
+	border:1px;
+	border:0.5px solid white;
+	
+	width:40px;
+}
+
+#home-button:hover{
+	background:#5C5C5C;
+	color:white;
+}
+*/
+
+#nav-button{
+	font-size: 13px;
+	padding:5px 15px;
+	text-align: center;
+	margin-top:10px;
+
+	/*
+	border:1px;
+	border:0.5px solid white;
+	width:40px;
+	*/
+}
+
+#nav-button:hover{
+	background:  black url('Fish2.gif') no-repeat center center fixed; 
+  	background-size: contain;
+    background-position: right; 
+  	color:white;
+  	font-family: Courier New, sans-serif;
+}
+
+
+#youtube-audio{
+	position: absolute;
+	top:800px;
+	right:0;
+}
+
+.now-playing{
+	position: absolute;
+    top: 10px;
+    right: 10px;
+	text-align: right;
+}
+
+.now-playing p{
+	font-size: 12px;
+}
+
+
