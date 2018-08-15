@@ -93,11 +93,7 @@ table{
 }
 
 #nav-button:hover{
-	background:  black url('Fish2.gif') no-repeat center center fixed; 
-  	background-size: contain;
-    background-position: right; 
-  	color:white;
-  	font-family: Courier New, sans-serif;
+	background:white;
 }
 
 
