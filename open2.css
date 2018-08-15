@@ -35,7 +35,7 @@ header{
 
 .container{
 	margin-top: 330px;
-	display: flex;
+	display: block;
   	justify-content: flex-start;
 }
 
