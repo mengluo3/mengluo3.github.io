@@ -34,9 +34,9 @@ header{
 }
 
 .container{
-	position: absolute;
-	left: 50%;
-	bottom: 50%;
+	margin-bottom: 10px;
+	display: flex;
+  	justify-content: left;
 }
 
 .button{
