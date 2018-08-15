@@ -60,6 +60,10 @@ table{
 	padding-right:10px;
 }
 
+#external-links hover{
+	background-color: white;
+}
+
 /*
 #home-button{
 	color:white;
