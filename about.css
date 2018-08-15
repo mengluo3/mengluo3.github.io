@@ -10,6 +10,10 @@ a{
 	color:white;
 }
 
+a:hover{
+	background-color:white;
+}
+
 
 body p{
 	font-size:13px;
@@ -56,10 +60,6 @@ table{
 	padding-right:10px;
 }
 
-#external-links td:hover{
-	background: white;
-}
-
 /*
 #home-button{
 	color:white;
@@ -91,11 +91,6 @@ table{
 	width:40px;
 	*/
 }
-
-#nav-button:hover{
-	background:white;
-}
-
 
 #youtube-audio{
 	position: absolute;
