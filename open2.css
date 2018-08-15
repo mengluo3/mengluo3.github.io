@@ -20,6 +20,10 @@ a:hover{
 }
 
 header{
+	position:relative;
+	margin-top:330px;
+	display:block;
+	justify-content:start;
 	font-size:50px;
 }
 
