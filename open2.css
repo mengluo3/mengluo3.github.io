@@ -36,7 +36,7 @@ header{
 .container{
 	margin-top: 330px;
 	display: block;
-  	justify-content: flex-start;
+  	justify-content: start;
 }
 
 .button{
