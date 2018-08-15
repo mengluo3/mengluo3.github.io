@@ -20,11 +20,12 @@ a:hover{
 }
 
 header{
-	position:relative;
+	position:fixed;
 	margin-top:330px;
 	display:block;
 	justify-content:start;
 	font-size:50px;
+	margin-left:10px;
 }
 
 
@@ -41,6 +42,7 @@ header{
 	margin-top: 330px;
 	display: block;
   	justify-content: start;
+	margin-left:10px;
 }
 
 .button{
