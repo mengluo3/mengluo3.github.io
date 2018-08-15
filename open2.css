@@ -35,8 +35,8 @@ header{
 
 .container{
 	position: absolute;
-	bottom: 8px;
-    	left: 16px;
+	left: 50%;
+	bottom: 50%;
 }
 
 .button{
