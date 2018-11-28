@@ -29,22 +29,6 @@ a:hover{
   color:black;
 }
 
-/*
-.picture{
-	margin-top:100px;
-	float:left;
-	width: 50%;
-
-}
-
-.player{
-	margin-top:100px;
-	float:right;
-	width: 50%;
-
-	margin-left:0px;
-}
-*/
 
 section{
   margin-top:30px;
@@ -60,14 +44,6 @@ p{
 	line-height: 1.5em;
 }
 
-
-/*
-button{
-	position:fixed;
-	margin-left: auto;
-	margin-right:auto;
-}
-*/
 
 figure{
 	margin-left:400px;
