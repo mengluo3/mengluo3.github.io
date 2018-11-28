@@ -1,3 +1,7 @@
+/* SET UP
+	general: black background; white font; Courier New, sans serif
+	specific to this page: fish gif on right;
+*/
 html { 
 	background:  black url('Fish2.gif') no-repeat center center fixed; 
   	background-size: 600px;
@@ -6,6 +10,9 @@ html {
   	font-family: Courier New, sans-serif;
 }
 
+/* LINKS
+	general: white; hover, white highlight;
+*/
 a{
 	color:white;
 }
@@ -14,6 +21,11 @@ a:hover{
 	background-color:white;
 }
 
+
+
+/* TEXT CONTENT
+	font; navigation. specific to this page.  
+*/
 
 body p{
 	font-size:13px;
@@ -31,23 +43,12 @@ table{
 	left:80px;
 	top:120px;
 	right:550px;
-	/*
-	margin-top:80px;
-	margin-left:200px;
-	margin-right:200px;*/
 }
 
-.head{
-	text-align:left;
-	font-size:25px;
-}
-
-/*
-#external-links{
-	margin-left: auto;
-    margin-right: auto;
-}
+/* LINKS TO OTHER PLATFORMS
+	general, but only this page has links to other platforms. 
 */
+
 
 #external-links{
 	margin:auto;
@@ -64,53 +65,11 @@ table{
 	background-color: white;
 }
 
-/*
-#home-button{
-	color:white;
-	padding:5px 15px;
-	text-align: center;
-	margin-top:10px;
-	
-	border:1px;
-	border:0.5px solid white;
-	
-	width:40px;
-}
-
-#home-button:hover{
-	background:#5C5C5C;
-	color:white;
-}
-*/
 
 #nav-button{
 	font-size: 13px;
 	padding:5px 15px;
 	text-align: center;
 	margin-top:10px;
-
-	/*
-	border:1px;
-	border:0.5px solid white;
-	width:40px;
-	*/
 }
-
-#youtube-audio{
-	position: absolute;
-	top:800px;
-	right:0;
-}
-
-.now-playing{
-	position: absolute;
-    top: 10px;
-    right: 10px;
-	text-align: right;
-}
-
-.now-playing p{
-	font-size: 12px;
-}
-
 
