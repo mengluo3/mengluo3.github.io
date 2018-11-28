@@ -1,0 +1,122 @@
+body {
+    color: black;
+    font-family: Courier New, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+img {
+    vertical-align: baseline;
+}
+
+
+
+/*--Navigation--------------------------------------*/
+
+a{
+    color:black;
+}
+
+a:hover{
+    color:white;
+    background-color:black;
+}
+
+#nav-button{
+  font-size: 13px;
+  padding:5px 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top:10px;
+  margin-left:70px;
+  color:black;
+}
+
+#nav-button:hover{
+  color:black;
+}
+
+p{
+    text-align: center;
+}
+
+
+/*-----Helper Utilities----------------------*/
+
+.flex {
+    display: flex;
+}
+
+
+/*-----Outer Container-----------------------*/
+@media screen and (min-width: 992px) {
+    .outer-container {
+        padding-left: 80px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .no-padding {
+        padding: 0;
+    }
+}
+
+
+
+/*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+
+/*
+.blog-page {
+    padding-top: 15px;
+    font-family: Courier New, sans-serif;
+}
+
+.blog-page .blog-content header {
+    width: 100%;
+}
+*/
+
+/*Makes images take up 50% of screen space on the left regardless of original image size*/
+.blog-page .blog-content figure,
+.blog-page .blog-content .entry-content {
+    width: 50%;
+}
+
+/*creates diamond/arrow pointing to image*/
+.blog-page .blog-content figure {
+    margin: 0;
+    overflow: hidden;
+}
+
+/*Makes images take up 50% of screen space on the left regardless of original image size*/
+.blog-page .blog-content figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*separates images and text so they don't overlap*/
+.blog-page .blog-content .entry-content {
+    padding: 25px;
+}
+
+/*positions diamond/arrow */
+.blog-page .blog-content .entry-content h3 {
+    position: relative;
+}
+
+/*positions diamond/arrow */
+.blog-page .blog-content .entry-content h3::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: -35px ;
+    z-index: 99;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background: #fff;
+}
+
