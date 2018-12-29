@@ -16,6 +16,7 @@ a:hover{
 }
 
 #nav-button{
+  font-family: Courier New, sans-serif;
   font-size: 13px;
   padding:5px 15px;
   text-align: center;
@@ -24,6 +25,11 @@ a:hover{
 
 #nav-button:hover{
   color:black;
+}
+
+#navigation{
+	position:relative;
+	margin-top:10px;
 }
 
 
@@ -47,8 +53,5 @@ video{
     width: 50%;
 }
 
-#navigation{
-	position:relative;
-	margin-top:10px;
-}
+
 
