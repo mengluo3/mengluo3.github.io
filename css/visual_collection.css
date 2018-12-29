@@ -70,3 +70,15 @@ table{
 	text-align: center;
 	margin-top:10px;
 }
+
+/* Center videos and images */
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+video{
+	display: block;
+    margin: 0 auto;
+}
