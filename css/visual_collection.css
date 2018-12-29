@@ -4,9 +4,12 @@
 	specific to this page: fish gif on right;
 */
 html { 
-    font-family: Courier New, sans-serif;
-    font-size: 20px;
+  	background:  white; 
+  	background-size: contain;
+  	color:black;
+  	font-family: Courier New, sans-serif;
 }
+
 
 /* LINKS
 	general: white; hover, white highlight;
