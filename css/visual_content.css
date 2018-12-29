@@ -1,0 +1,54 @@
+html { 
+  	background:  white; 
+  	background-size: contain;
+  	color:black;
+  	font-family: Courier New, sans-serif;
+}
+
+
+/* Links */
+a{
+  color:black;
+}
+
+a:hover{
+  background-color:black;
+}
+
+#nav-button{
+  font-size: 13px;
+  padding:5px 15px;
+  text-align: center;
+  color:black;
+}
+
+#nav-button:hover{
+  color:black;
+}
+
+
+/*Content*/
+
+image{
+  display: block;
+  margin: 0 auto;
+}
+
+video{
+  display: block;
+  margin: 0 auto;
+}
+
+.center{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    width: 50%;
+}
+
+#navigation{
+	position:relative;
+	margin-top:10px;
+}
+
