@@ -203,7 +203,7 @@ COMMENT positions diamond/arrow
 
 
 /*positions diamond/arrow*/
-.blog-content-right .entry-content-right h3 {
+.blog-content-right .entry-content-right h3{
     position:relative;
     font-weight:normal;
     font-size:20px;
