@@ -1,0 +1,101 @@
+html { 
+  	background:  white; 
+  	background-size: contain;
+  	color:black;
+  	font-family: Courier New, sans-serif;
+}
+
+
+/* Links */
+a{
+  color:black;
+}
+
+a:hover{
+  background-color:black;
+}
+
+#nav-button{
+  font-family: Courier New, sans-serif;
+  font-size: 13px;
+  padding:5px 15px;
+  text-align: center;
+  color:black;
+}
+
+#nav-button:hover{
+  color:black;
+}
+
+#navigation{
+	position:relative;
+	margin-top:10px;
+}
+
+#back{
+	display: block;
+ 	margin: 0 auto;
+  margin-top:15px;
+  margin-bottom:30px;
+}
+
+/* Layout */
+
+.title{
+  margin: auto;
+  width: 100%;
+  margin-top:30px;
+  font-size:20px;
+  font-weight:bold;
+  text-align: center; 
+}
+
+.subtitle{
+  margin: 0 auto;
+  width: 60%;
+  padding-top:10px;
+  text-align: center; 
+  font-size:16px;
+  font-style:italic;
+}
+
+section{
+  display: inline-flex;/*display final images and description side by side*/
+}
+
+.final{
+  margin-top:25px;
+  margin-left:30px;
+  justify-content: left;
+}
+
+img{
+  margin-top:20px;
+  margin-left:30px;
+  justify-content: left;
+}
+
+#bordered_image{
+  margin:0;
+  justify-content: left;
+}
+
+header{
+  margin-top:10px;
+  font-size:15px;
+  font-weight: bold;
+}
+
+.desc{
+  margin-top:30px;
+  margin-left:30px;
+  margin-right:50px;
+  line-height: 1.5em;/*spacing between lines*/
+  font-size:14px;
+  text-align: justify;
+}
+
+#footnote{
+  font-size:12px;
+  font-style:italic;
+}
