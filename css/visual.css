@@ -3,17 +3,9 @@ html {
     background-size: contain;
     color:black;
     font-family: Courier New, sans-serif;
-}
-
-body {
-    color: black;
-    font-family: Courier New, sans-serif;
     font-size: 20px;
-    font-weight: lighter;
-}
+    font-weight: light;
 
-img {
-    vertical-align: baseline;
 }
 
 
@@ -22,6 +14,7 @@ img {
 
 a{
     color:black;
+    font-weight: light;
 }
 
 a:hover{
@@ -44,13 +37,18 @@ a:hover{
 }
 
 p{
-    text-align: center;
+    text-align: left;
+}
+
+h3{
+    text-align:right;
 }
 
 #archive_link{
     margin-top:15px;
     margin-bottom:60px;
 }
+
 /*-----Helper Utilities----------------------*/
 
 .flex {
@@ -58,10 +56,17 @@ p{
 }
 
 
+/*----------font-------------------------------
+h3{
+    font-weight:normal;
+}
+*/
+
 /*-----Outer Container-----------------------*/
 @media screen and (min-width: 992px) {
     .outer-container {
-        padding-left: 80px;
+        padding-left: 40px;
+        padding-right:40px;
     }
 }
 
@@ -72,53 +77,85 @@ p{
 }
 
 
-
-/*--------------------------------------------------------------
-# Blog
---------------------------------------------------------------*/
-
-/*
-.blog-page {
-    padding-top: 15px;
-    font-family: Courier New, sans-serif;
-}
-
-.blog-page .blog-content header {
-    width: 100%;
-}
-*/
-
 /*Makes images take up 50% of screen space on the left regardless of original image size*/
-.blog-page .blog-content figure,
-.blog-page .blog-content .entry-content {
+.blog-content figure,
+.blog-content .entry-content {
     width: 50%;
 }
 
-/*creates diamond/arrow pointing to image*/
-.blog-page .blog-content figure {
-    margin: 0;
-    overflow: hidden;
-}
-
-/*Makes images take up 50% of screen space on the left regardless of original image size*/
-.blog-page .blog-content figure img {
+/*Fits images to frame in blog-content*/
+.blog-content figure img {
     display: block;
     width: 100%;
     height: auto;
 }
 
 /*separates images and text so they don't overlap*/
-.blog-page .blog-content .entry-content {
+.blog-content .entry-content {
+    padding: 10px;
+}
+
+/*creates diamond/arrow pointing to image*/
+.blog-contentfigure {
+    margin: 0;
+    overflow: hidden;
+}
+
+
+/*positions diamond/arrow */
+.blog-content .entry-content p {
+    position: relative;
+    align-self:center;
+
+}
+
+/*positions diamond/arrow */
+p::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: -60px ;
+    z-index: 99;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background: #fff;
+}
+
+
+/*
+COMMENT Makes images take up 50% of screen space on the left regardless of original image size
+.blog-content figure,
+.blog-content .entry-content {
+    width: 50%;
+}
+
+COMMENT Fits images to frame in blog-content
+.blog-content figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+COMMENT separates images and text so they don't overlap
+.blog-content .entry-content {
     padding: 25px;
 }
 
-/*positions diamond/arrow */
-.blog-page .blog-content .entry-content h3 {
+COMMENT creates diamond/arrow pointing to image
+.blog-content figure {
+    margin: 0;
+    overflow: hidden;
+}
+
+
+COMMENT positions diamond/arrow 
+.blog-content .entry-content h3 {
     position: relative;
 }
 
-/*positions diamond/arrow */
-.blog-page .blog-content .entry-content h3::before {
+COMMENT positions diamond/arrow 
+.blog-content .entry-content .leftist h3::before {
     content: '';
     position: absolute;
     top: 7px;
@@ -127,6 +164,66 @@ p{
     width: 20px;
     height: 20px;
     transform: rotate(45deg);
+    background: #000;
+}
+
+*/
+
+
+
+
+
+
+/*Makes images take up 50% of screen space on the left regardless of original image size*/
+.blog-content-right figure{
+    width:50%;
+}
+
+.blog-content-right .entry-content-right {
+    width: 50%;
+}
+
+/*Fits images to frame in blog-content*/
+.blog-content-right figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*separates images and text so they don't overlap*/
+.entry-content-right .blog-content-right{
+    padding: 0px;
+}
+
+/*creates diamond/arrow pointing to image*/
+.blog-content-right figure {
+    margin: 0;
+    overflow: hidden;
+}
+
+
+/*positions diamond/arrow*/
+.blog-content-right .entry-content-right h3 {
+    position:relative;
+    font-weight:normal;
+    font-size:20px;
+    margin-top:35%;
+    margin-right:35px;
+    margin-left:200px;
+}
+
+/*positions diamond/arrow */
+h3::before{
+    content:'';
+    position: absolute;
+    top: 3px;
+    right: -45px ;
+    z-index: 10000;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
     background: #fff;
 }
+
+
 
