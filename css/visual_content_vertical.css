@@ -90,6 +90,12 @@ img{
   margin: 0 auto;
 }
 
+.caption{
+  display: block;
+  margin: 0 auto;
+  font-size:13px;
+}
+
 video{
   /*center*/
   display: block;
