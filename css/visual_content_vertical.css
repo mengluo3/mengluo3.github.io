@@ -81,6 +81,11 @@ header{
   text-align: justify;
 }
 
+.img_left{
+  display:inline-block;
+  text-align:right;
+}
+
 
 /* Content */
 
