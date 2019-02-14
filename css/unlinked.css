@@ -2,18 +2,31 @@ html {
   	background:  white; 
   	background-size: contain;
   	color:black;
-  	font-family: Arial, sans-serif;
+  	font-family: Calibri, sans-serif;
     font-size:13px;
+
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:30px;
+    margin-bottom:30px;
 }
 
 
 /* Links */
+#blog-title{
+  font-size:20px;
+  color:#9d9b9d;
+  font-style:italic;
+  text-decoration: none;
+}
+
 a{
-  color:black;
+  text-decoration: none;
+  color:#9d9b9d;
 }
 
 a:hover{
-  background-color:black;
+  color:black;
 }
 
 #nav-button{
@@ -75,9 +88,7 @@ header{
 
 .desc{
   margin-top:30px;
-  margin-left:120px;
-  margin-right:120px;
-  line-height: 1.5em;/*spacing between lines*/
+  line-height: 1.2em;/*spacing between lines*/
   font-size:12px;
   text-align: justify;
 }
