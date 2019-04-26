@@ -3,7 +3,7 @@ html {
   	background-size: contain;
   	color:black;
   	font-family: Calibri, sans-serif;
-    font-size:13px;
+    font-size:15px;
 
     margin-left:20%;
     margin-right:20%;
@@ -11,6 +11,18 @@ html {
     margin-bottom:30px;
 }
 
+/*Create a square*/
+.square {
+  height: 8px;
+  width: 8px;
+  background-color: #9d9b9d;
+}
+
+.square:hover {
+  height: 8px;
+  width: 8px;
+  background-color: red;
+}
 
 /* Links */
 #blog-title{
@@ -20,13 +32,32 @@ html {
   text-decoration: none;
 }
 
+
+#blog-title::before{
+  content: '';
+  height: 8px;
+  width: 8px;
+  background-color: red;
+  display: inline-block;
+  margin-right:10px;
+  vertical-align: 10%;
+}
+
+
 a{
-  text-decoration: none;
-  color:#9d9b9d;
+  color: #4B4B4B;
+  text-decoration:none;
 }
 
 a:hover{
-  color:black;
+  color:red;
+  text-decoration: overline;
+}
+
+.date-stamp{
+  color:#c9c9c9;
+  font-style:italic;
+  display:inline-block;
 }
 
 #nav-button{
@@ -88,9 +119,13 @@ header{
 
 .desc{
   margin-top:30px;
-  line-height: 1.2em;/*spacing between lines*/
-  font-size:12px;
+  line-height: 1em;/*spacing between lines*/
   text-align: justify;
+}
+
+.entry-title{
+  font-style:italic;
+  text-align:center;
 }
 
 .container{
@@ -109,3 +144,5 @@ header{
   flex-direction: column;
   text-align:center;
 }
+
+
