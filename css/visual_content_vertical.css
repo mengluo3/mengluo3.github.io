@@ -39,6 +39,29 @@ a:hover{
   margin-bottom:30px;
 }
 
+#table-of-contents{
+  position: fixed;
+  margin-top:100px;
+  margin-right:10px;
+  margin-left:1120px;
+}
+
+#table-of-contents::before{
+  content:"";
+  position: absolute;
+  top:15px;
+  left:30px;
+  height: 80px;
+  width: 1px;
+  background-color: black;
+}
+
+#toc{
+  text-decoration: none;
+  font-family: Courier New, sans-serif;
+  font-size:13px;
+}
+
 /* Layout */
 
 .title{
@@ -122,3 +145,8 @@ video{
   flex: 33%;/*50% for two images, 33% for three, 25% for four, etc*/
   padding: 5px;
 }
+
+
+/*Stuff for specific elements*/
+ a img { display:none; }
+ a:hover img { display:block; }
