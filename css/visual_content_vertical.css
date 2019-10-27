@@ -2,9 +2,11 @@ html {
   	background:  white; 
   	background-size: contain;
   	color:black;
-  	font-family: Calibri, sans-serif;
+    font-family: Calibri, sans-serif;
 }
 
+p{
+}
 
 /* Links */
 a{
@@ -13,14 +15,15 @@ a{
 
 a:hover{
   background-color:black;
-}S
+}
 
 #nav-button{
   font-family: Courier New, sans-serif;
   font-size: 13px;
-  padding:5px 15px;
   text-align: center;
   color:black;
+  padding: 5px 15px;
+  padding: 20 em;
 }
 
 #nav-button:hover{

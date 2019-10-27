@@ -30,6 +30,7 @@ html {
   color:#9d9b9d;
   font-style:italic;
   text-decoration: none;
+  float:left;
 }
 
 
@@ -41,6 +42,35 @@ html {
   display: inline-block;
   margin-right:10px;
   vertical-align: 10%;
+}
+
+#return{
+  color:#9d9b9d;
+  /*font-style:italic;*/
+  border-bottom: .5px solid currentColor;
+  float: right;
+
+  /*
+  text-align:center;
+  padding:2px;
+  border-style:solid;
+  border-width:1px;
+  border-color:#9d9b9d;
+  */
+}
+
+#return:hover{
+  color:red;
+  border-bottom: 1px solid currentColor;
+  /*font-style:italic;
+  text-decoration: overline;*/
+  float: right;
+  /*
+  padding:2px;
+  border-style:solid;
+  border-width:1px;
+  border-color:red;
+  */
 }
 
 
